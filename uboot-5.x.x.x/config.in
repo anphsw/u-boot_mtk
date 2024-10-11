@@ -1811,6 +1811,7 @@ define_hex TEXT_BASE  0xBC000000
 fi
 
 fi
+bool 'Allow setting ethaddr env only once'	CONFIG_OVERWRITE_ETHADDR_ONCE		n
 ##################################################################################################
 comment ""
 bool 'HTTPD server'		HTTPD_SUPPORT		n
